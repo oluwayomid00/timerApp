@@ -12,10 +12,10 @@ function App() {
     <div>
       <Navbar/>
       <Routes>
-        <Route path='/' element={<Home/>}> </Route>
-        <Route path='/time' element={<Time/>}> </Route>
-        <Route path='/countdown' element={<Countdown/>}> </Route>
-        <Route path='/stopwatch' element={<Stopwatch/>}> </Route>
+        <Route path='/timerApp/' element={<Home/>}> </Route>
+        <Route path='/timerApp/time' element={<Time/>}> </Route>
+        <Route path='/timerApp/countdown' element={<Countdown/>}> </Route>
+        <Route path='/timerApp/stopwatch' element={<Stopwatch/>}> </Route>
       </Routes>
     </div>
   );

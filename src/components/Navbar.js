@@ -6,7 +6,7 @@ const Navbar = () => {
     <div className="">
       <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
         <div className="container-fluid">
-          <a className="navbar-brand" href="/">
+          <a className="navbar-brand" href="/timerApp">
             Timer App
           </a>
           <button
@@ -24,22 +24,22 @@ const Navbar = () => {
           >
             <ul className={"navbar-nav  mb-2 mb-sm-0"}>
               <li className="nav-item">
-                <Link className="nav-link" to="/">
+                <Link className="nav-link" to="/timerApp">
                   Home
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/time">
+                <Link className="nav-link" to="/timerApp/time">
                   Time
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/countdown">
+                <Link className="nav-link" to="/timerApp/countdown">
                   Countdown
                 </Link>
               </li>
               <li className="nav-item">
-                <Link className="nav-link" to="/stopwatch">
+                <Link className="nav-link" to="/timerApp/stopwatch">
                   Stopwatch
                 </Link>
               </li>
