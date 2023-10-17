@@ -29,14 +29,14 @@ const Time = () => {
               <p>{Intl.DateTimeFormat().resolvedOptions().timeZone}</p>
             </div>
             <div className="d-flex flex-column flex-md-row justify-content-around w-100">
-              <div>
-                <p className="d-flex flex-column align-items-center">
+              <div className="border border-dark rounded m-2">
+                <p className="d-flex flex-column align-items-center px-2">
                   <span>Time</span>
                   <span>{getTime()}</span>
                 </p>
               </div>
-              <div>
-                <p className="d-flex flex-column align-items-center">
+              <div className="border border-dark rounded m-2">
+                <p className="d-flex flex-column align-items-center px-2">
                   <span>Date</span>
                   <span>{getDate()}</span>
                 </p>

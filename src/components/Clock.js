@@ -31,7 +31,7 @@ const Clock = () => {
       <h1 className="my-5">Countdown</h1>
       <div className="d-flex flex-column align-items-center column">
         <Card>
-          <section className="col-sm-2">
+          <section className="col-sm-2 mx-2">
             <p className="mb-0">
               {remainingTime.days < "10" ? "0" : ""}
               {remainingTime.days}
@@ -39,7 +39,7 @@ const Clock = () => {
             <small className="fs-6">Days</small>
           </section>
           <span>:</span>
-          <section className="col-sm-2">
+          <section className="col-sm-2 mx-2">
             <p className="mb-0">
               {remainingTime.hours < "10" ? "0" : ""}
               {remainingTime.hours}
@@ -47,7 +47,7 @@ const Clock = () => {
             <small className="fs-6">Hours</small>
           </section>
           <span>:</span>
-          <section className="col-sm-2">
+          <section className="col-sm-2 mx-2">
             <p className="mb-0">
               {remainingTime.mins < "10" ? "0" : ""}
               {remainingTime.mins}
@@ -55,7 +55,7 @@ const Clock = () => {
             <small className="fs-6">Mins</small>
           </section>
           <span>:</span>
-          <section className="col-sm-2">
+          <section className="col-sm-2 mx-2">
             <p className="mb-0">
               {remainingTime.secs < "10" ? "0" : ""}
               {remainingTime.secs}
