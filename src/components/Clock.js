@@ -27,9 +27,9 @@ const Clock = () => {
   };
 
   return (
-    <div className="text-center container d-flex flex-column align-items-center ">
-      <h1 className="mt-5 w-100">Countdown</h1>
-      <div className="w-100 d-flex flex-column justify-content-center align-items-center my-auto">
+    <div className="text-center">
+      <h1 className="my-5">Countdown</h1>
+      <div className="d-flex flex-column align-items-center column">
         <Card>
           <section className="col-sm-2">
             <p className="mb-0">
@@ -52,7 +52,7 @@ const Clock = () => {
               {remainingTime.mins < "10" ? "0" : ""}
               {remainingTime.mins}
             </p>
-            <small className="fs-6">Minuites</small>
+            <small className="fs-6">Mins</small>
           </section>
           <span>:</span>
           <section className="col-sm-2">
@@ -60,7 +60,7 @@ const Clock = () => {
               {remainingTime.secs < "10" ? "0" : ""}
               {remainingTime.secs}
             </p>
-            <small className="fs-6">Seconds</small>
+            <small className="fs-6">Secs</small>
           </section>
         </Card>
         <div className="d-grid justify-content-center my-3">

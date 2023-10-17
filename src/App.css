@@ -2,9 +2,11 @@ body{
     height: 100vh;
     background-image: linear-gradient(to bottom right, aqua, rgb(6, 114, 114));
 }
+
+
  
 @media screen and (max-width: 575px){
-    body{
-    height: 100%;
+ .column span{
+    display: none;
 }
 }

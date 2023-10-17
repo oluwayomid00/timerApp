@@ -20,15 +20,15 @@ const Time = () => {
   }
 
   return (
-    <div className="text-center container d-flex flex-column align-items-center">
-      <h1 className="mt-5">Current Date & Time</h1>
-      <div className="w-100 d-flex flex-column justify-content-center align-items-center">
+    <div className="text-center">
+      <h1 className="my-5">Current Date & Time</h1>
+      <div className="d-flex flex-column align-items-center">
         <Card>
-          <div className="w-100 px-4 h-100">
+          <div className="w-100 px-4 h-100 fs-2">
             <div className="fs-6 text-center mt-0 pt-0">
               <p>{Intl.DateTimeFormat().resolvedOptions().timeZone}</p>
             </div>
-            <div className="d-flex justify-content-between w-100">
+            <div className="d-flex flex-column flex-md-row justify-content-around w-100">
               <div>
                 <p className="d-flex flex-column align-items-center">
                   <span>Time</span>

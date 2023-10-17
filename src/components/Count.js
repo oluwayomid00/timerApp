@@ -31,11 +31,11 @@ const Count = () => {
   };
 
   return (
-    <div className="text-center container d-flex flex-column align-items-center ">
-      <h1 className="mt-5 w-100">Stopwatch</h1>
-      <div className="w-100 d-flex flex-column justify-content-center align-items-center my-auto">
+    <div className="text-center">
+      <h1 className="my-5">Stopwatch</h1>
+      <div className="d-flex flex-column align-items-center">
         <Card>
-          <p>
+          <p className="fs-sm-3">
             {time.hrs < "10" ? "0" : ""}
             {time.hrs} : {time.mins < "10" ? "0" : ""}
             {time.mins} : {time.secs < "10" ? "0" : ""}
@@ -43,16 +43,26 @@ const Count = () => {
             {time.milli}
           </p>
         </Card>
-        <div className="justify-content-center my-5 w-100">
-          <button className="col-1 btn btn-success" onClick={startTimer}>
-            Start
-          </button>
-          <button className="col-1 btn btn-danger mx-2" onClick={stopTimer}>
-            Stop
-          </button>
-          <button className="col-1 btn btn-warning text-white" onClick={resetTimer}>
-            Reset
-          </button>
+
+        <div className="justify-content-center my-5 row">
+          <div className="col">
+            <button className="btn btn-success" onClick={startTimer}>
+              Start
+            </button>
+          </div>
+          <div className="col">
+            <button className="btn btn-danger" onClick={stopTimer}>
+              Stop
+            </button>
+          </div>
+          <div className="col">
+            <button
+              className="btn btn-warning text-white"
+              onClick={resetTimer}
+            >
+              Reset
+            </button>
+          </div>
         </div>
       </div>
     </div>
