@@ -10,13 +10,13 @@ const Home = () => {
           <p>Welcome to the Timer App :)!!</p>
           <p className="fs-5">What do you want to do?</p>
           <div className="w-100 d-flex justify-content-center align-items-center">
-            <Link to="/time">
+            <Link to="/timerApp/time">
               <button className="btn btn-dark">Time</button>
             </Link>
-            <Link to="/countdown">
+            <Link to="/timerApp/countdown">
               <button className="btn btn-dark mx-2">Countdown</button>
             </Link>
-            <Link to="/stopwatch">
+            <Link to="/timerApp/stopwatch">
               <button className="btn btn-dark">Stopwatch</button>
             </Link>
           </div>
