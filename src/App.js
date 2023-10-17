@@ -17,7 +17,6 @@ function App() {
         <Route path='/countdown' element={<Countdown/>}> </Route>
         <Route path='/stopwatch' element={<Stopwatch/>}> </Route>
       </Routes>
-      <Home/>
     </div>
   );
 }
