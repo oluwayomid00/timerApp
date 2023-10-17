@@ -6,7 +6,7 @@ const Navbar = () => {
     <div className="">
       <nav className="navbar navbar-expand-sm navbar-dark bg-dark">
         <div className="container-fluid">
-          <a className="navbar-brand" href="/">
+          <a className="navbar-brand" href="/timeApp/">
             Timer App
           </a>
           <button
@@ -22,7 +22,7 @@ const Navbar = () => {
             className="collapse navbar-collapse justify-content-end"
             id="navbarsExample03"
           >
-            <ul className={"navbar-nav  mb-2 mb-sm-0"} >
+            <ul className={"navbar-nav  mb-2 mb-sm-0"}>
               <li className="nav-item">
                 <Link className="nav-link" to="/">
                   Home
