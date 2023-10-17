@@ -1,12 +1,10 @@
-body{
-    height: 100vh;
-    background-image: linear-gradient(to bottom right, aqua, rgb(6, 114, 114));
+body {
+  height: 100vh;
+  background-image: linear-gradient(to bottom right, aqua, rgb(6, 114, 114));
 }
 
-
- 
-@media screen and (max-width: 575px){
- .column span{
+@media screen and (max-width: 575px) {
+  .column span {
     display: none;
-}
+  }
 }

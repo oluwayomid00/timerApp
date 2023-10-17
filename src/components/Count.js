@@ -56,10 +56,7 @@ const Count = () => {
             </button>
           </div>
           <div className="col">
-            <button
-              className="btn btn-warning text-white"
-              onClick={resetTimer}
-            >
+            <button className="btn btn-warning text-white" onClick={resetTimer}>
               Reset
             </button>
           </div>
