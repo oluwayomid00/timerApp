@@ -10,7 +10,7 @@ const Home = () => {
         <Card>
           <div>
             <p className="fs-5 px-2">What do you want to do?</p>
-            <div className="row">
+            <div className="row mx-2">
               <div className="col-12 col-md-auto px-0">
                 <Link to="/timerApp/time">
                   <button className="btn btn-dark">Time</button>
