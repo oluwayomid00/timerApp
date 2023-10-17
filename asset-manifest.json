@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/oluwayomid00/timerApp/static/css/main.8339b1eb.css",
+    "main.js": "/oluwayomid00/timerApp/static/js/main.79abb950.js",
+    "index.html": "/oluwayomid00/timerApp/index.html",
+    "main.8339b1eb.css.map": "/oluwayomid00/timerApp/static/css/main.8339b1eb.css.map",
+    "main.79abb950.js.map": "/oluwayomid00/timerApp/static/js/main.79abb950.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8339b1eb.css",
+    "static/js/main.79abb950.js"
+  ]
+}
